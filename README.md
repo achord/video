@@ -1,4 +1,4 @@
-# video
+# Video Section
 - Video section for a website which includes a responsive video that emulates a CSS "cover"
 - Also includes comoiled grid styles
 
