@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Html - Video Example</title>
+  <!-- CSS -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="styles.css" rel="stylesheet">
+    <link href="hero.css" rel="stylesheet">
+
+  </head>
+<body>
+  <div class="Hero">
+    <div class="Hero-left">
+      <div class="Hero-content">
+        <h2 class="Hero-headline">Text Messaging & Mobile Marketing</h2>
+        <p class="Hero-subheader">This is the text for the subheader</p>
+        <a class="Hero-button" href="#">Learn More</a>
+      </div>
+    </div>
+    <div class="Hero-right Hero-videoContainer">
+      <!-- Image should be displayed for browsers & devices not supporting the <video> tag -->
+      <!-- <img class="Hero-image imgResponsive" src="/ui/img/clouds.jpg"> -->
+      <video class="Hero-video" autoplay loop>          
+        <source src="clouds.mp4" type="video/mp4">
+        <source src="clouds.ogv" type="video/ogg">
+        <source src="clouds.webm" type="video/webm">
+      </video>
+    </div>
+  </div> <!-- Hero -->
+
+    <div class="container">
+      <h2 class="Info-header">HTML - Looping Video Example</h2>
+      <ul>
+        <li>Formats: mp4, ogg, webm</li>
+        <li>This example does not include mobile or IE8</li>
+        <li>Miro was used video conversion</li>
+        <li>Image should be displayed for browsers & devices not supporting the "video" tag</li>
+      </ul>
+    </div>
+  </body>
+</html>

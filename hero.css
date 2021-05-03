@@ -1,0 +1,77 @@
+/* Hero section with responsive video */
+
+.Hero {
+  display: flex;
+  height: 40vw;
+  max-height: 80vh;
+}
+.Hero-left {
+  flex: 1;
+  width: 50%;
+}
+
+.Hero-right {
+  flex: 1;
+  width: 50%;
+}
+
+.Hero-content {
+  background-color: #1C303C;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  padding: 60px;
+}
+.Hero-image {
+  display: block; 
+}
+.Hero-videoContainer {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.Hero-video {
+  display: block;
+  height: 100%;
+  height: auto;
+  left: 50%;
+  min-height: 56.25vw;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 177.77777778vh;
+}
+.Hero-headline {
+  color: #FFF;
+  font-size: 3vw;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Hero-headline:after {
+  background-color: #3B9DFF;
+  bottom: -20px;
+  content: '';
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 100px;
+}
+.Hero-subheader {
+  margin-bottom: 40px;
+  font-size: 1.8vw;
+  line-height: 48px;
+}
+.Hero-button {
+  background-color: #007FFF;
+  border-radius: 100px;
+  color: #FFF;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+.Hero-button:hover {
+  background-color: #3B9DFF;
+}
