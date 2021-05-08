@@ -14,9 +14,7 @@ body {
   line-height: 1; 
 }
 
-ol, ul {
-  /* list-style: none;  */
-}
+
 
 blockquote, q {
   quotes: none; }
@@ -676,11 +674,7 @@ a {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-a:hover {
-  /* color: #f24040;
-  text-decoration: none;
-  border-bottom: 1px solid #f24040; */
-}
+
 
 
 /* LISTS *******************************************/
